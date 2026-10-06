@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; padding: 2rem 1rem; }
+main { max-width: 520px; margin: 0 auto; }
+header { display: flex; justify-content: space-between; align-items: center; }
+h1 { font-size: 1.4rem; font-weight: 500; margin: 0; }
+.badge { font-size: 12px; padding: 2px 8px; border: 1px solid currentColor; border-radius: 999px; opacity: .7; }
+form { display: flex; gap: .5rem; margin: 1rem 0; }
+input[type=text], #title { flex: 1; padding: .5rem; font: inherit; }
+button { padding: .4rem .8rem; font: inherit; cursor: pointer; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; align-items: center; gap: .6rem; padding: .5rem 0; border-bottom: 1px solid rgba(128,128,128,.3); }
+li span { flex: 1; word-break: break-word; }
+li.done span { text-decoration: line-through; opacity: .5; }
+.hint { font-size: 12px; opacity: .6; }

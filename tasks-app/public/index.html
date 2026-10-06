@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tasks on AWS</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Tasks</h1>
+      <span id="info" class="badge">loading...</span>
+    </header>
+    <form id="form">
+      <input id="title" placeholder="New task" maxlength="200" required>
+      <button type="submit">Add</button>
+    </form>
+    <ul id="list"></ul>
+    <p class="hint">Double-click a task to edit it.</p>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
